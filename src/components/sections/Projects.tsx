@@ -55,6 +55,34 @@ const projects: Project[] = [
         github: "#",
         image: "/Arduino-IR-Sensor-Car-speed.jpg",
     },
+    {
+        title: "Saham",
+        description: "Modern marketing agency website built to deliver high-performance, dynamic, and localized brand experiences.",
+        tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
+        github: "#",
+        live: "https://saham-brown.vercel.app/en",
+    },
+    {
+        title: "AceStar Tech Academy",
+        description: "Industry-recognised training platform offering professional courses in AI, data science, and software engineering, claimable via HRD Corp.",
+        tech: ["Next.js", "Tailwind CSS", "Course Management", "Deployment"],
+        github: "#",
+        live: "https://www.acestartechacademy.com/",
+    },
+    {
+        title: "JomLocal",
+        description: "AI-powered trip planning application designed to discover hidden local gems and authentic travel experiences in Perlis, Malaysia.",
+        tech: ["AI Planner", "Next.js", "Maps API", "Tailwind CSS", "Mobile Web"],
+        github: "#",
+        live: "https://www.jomlocal.com/",
+    },
+    {
+        title: "Ace Tech SI",
+        description: "Enterprise systems integration platform delivering ERP systems, AI automation, and IoT hardware integrations across the Singapore–Malaysia corridor.",
+        tech: ["ERP Systems", "AI Solutions", "IoT Automation", "Enterprise Cloud"],
+        github: "#",
+        live: "https://acetechsi.vercel.app/about",
+    },
 ];
 
 function ProjectCard({ project, index }: { project: Project; index: number }) {
@@ -138,9 +166,6 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 }
 
 export function Projects() {
-    const topRow = projects.slice(0, 3);
-    const bottomRow = projects.slice(3);
-
     return (
         <Section id="projects" className="py-32">
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
@@ -159,28 +184,15 @@ export function Projects() {
                 </a>
             </div>
 
-            {/* Top row — 3 cards */}
+            {/* Projects Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {topRow.map((project, index) => (
+                {projects.map((project, index) => (
                     <motion.div
                         key={index}
                         animate={{ y: [0, -12, 0] }}
                         transition={{ duration: 4 + index * 0.6, repeat: Infinity, ease: "easeInOut", delay: index * 0.4 }}
                     >
                         <ProjectCard project={project} index={index} />
-                    </motion.div>
-                ))}
-            </div>
-
-            {/* Bottom row — 2 cards, centered */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:w-2/3 mx-auto mt-6">
-                {bottomRow.map((project, index) => (
-                    <motion.div
-                        key={index + 3}
-                        animate={{ y: [0, -12, 0] }}
-                        transition={{ duration: 4 + (index + 3) * 0.6, repeat: Infinity, ease: "easeInOut", delay: (index + 3) * 0.4 }}
-                    >
-                        <ProjectCard project={project} index={index + 3} />
                     </motion.div>
                 ))}
             </div>
