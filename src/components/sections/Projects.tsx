@@ -39,6 +39,7 @@ const projects: Project[] = [
         tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
         github: "#",
         live: "https://saham-brown.vercel.app/en",
+        image: "/saham.png",
     },
     {
         title: "Ace Star Tech SI",
