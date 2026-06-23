@@ -18,6 +18,37 @@ type Project = {
 
 const projects: Project[] = [
     {
+        title: "JomLocal",
+        description: "AI-powered trip planning Android and iOS mobile app designed to discover hidden local gems and authentic travel experiences in Perlis, Malaysia.",
+        tech: ["AI Planner", "Next.js", "Maps API", "Tailwind CSS", "Android & iOS"],
+        github: "#",
+        live: "https://www.jomlocal.com/",
+        image: "/jomlocal.png",
+    },
+    {
+        title: "AceStar Tech Academy",
+        description: "Industry-recognised training platform offering professional courses in AI, data science, and software engineering, claimable via HRD Corp.",
+        tech: ["Next.js", "Tailwind CSS", "Course Management", "Deployment"],
+        github: "#",
+        live: "https://www.acestartechacademy.com/",
+        image: "/acestartechacademy.png",
+    },
+    {
+        title: "Saham",
+        description: "Modern marketing agency website built to deliver high-performance, dynamic, and localized brand experiences.",
+        tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
+        github: "#",
+        live: "https://saham-brown.vercel.app/en",
+    },
+    {
+        title: "Ace Star Tech SI",
+        description: "Enterprise systems integration platform delivering ERP systems, AI automation, and IoT hardware integrations across the Singapore–Malaysia corridor.",
+        tech: ["ERP Systems", "AI Solutions", "IoT Automation", "Enterprise Cloud"],
+        github: "#",
+        live: "https://acetechsi.vercel.app/about",
+        image: "/acetechsi.png",
+    },
+    {
         title: "Smart Parking System",
         description: "End-to-end intelligent IoT parking platform with real-time spot detection, cloud dashboard, and mobile access. Built as my main engineering project at UniSiraj.",
         tech: ["ESP32", "Firebase", "Web Dashboard", "Ultrasonic Sensors", "IoT"],
@@ -54,34 +85,6 @@ const projects: Project[] = [
         tech: ["Embedded C", "Microcontrollers", "Hardware Timers", "Sensors", "LCD Display"],
         github: "#",
         image: "/Arduino-IR-Sensor-Car-speed.jpg",
-    },
-    {
-        title: "Saham",
-        description: "Modern marketing agency website built to deliver high-performance, dynamic, and localized brand experiences.",
-        tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
-        github: "#",
-        live: "https://saham-brown.vercel.app/en",
-    },
-    {
-        title: "AceStar Tech Academy",
-        description: "Industry-recognised training platform offering professional courses in AI, data science, and software engineering, claimable via HRD Corp.",
-        tech: ["Next.js", "Tailwind CSS", "Course Management", "Deployment"],
-        github: "#",
-        live: "https://www.acestartechacademy.com/",
-    },
-    {
-        title: "JomLocal",
-        description: "AI-powered trip planning application designed to discover hidden local gems and authentic travel experiences in Perlis, Malaysia.",
-        tech: ["AI Planner", "Next.js", "Maps API", "Tailwind CSS", "Mobile Web"],
-        github: "#",
-        live: "https://www.jomlocal.com/",
-    },
-    {
-        title: "Ace Tech SI",
-        description: "Enterprise systems integration platform delivering ERP systems, AI automation, and IoT hardware integrations across the Singapore–Malaysia corridor.",
-        tech: ["ERP Systems", "AI Solutions", "IoT Automation", "Enterprise Cloud"],
-        github: "#",
-        live: "https://acetechsi.vercel.app/about",
     },
 ];
 

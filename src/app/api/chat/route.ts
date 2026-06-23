@@ -15,8 +15,8 @@ Your goals:
      * IoT Car Speed Detection: Precise microcontroller vehicle speed measurement.
      * Saham: High-performance marketing agency website (https://saham-brown.vercel.app/en).
      * AceStar Tech Academy: Industry-recognised training platform for AI, data science, and software (https://www.acestartechacademy.com/).
-     * JomLocal: AI-powered trip planner and tourist guide for Perlis, Malaysia (https://www.jomlocal.com/).
-     * Ace Tech SI: Systems integration for enterprise ERP, AI automation, and IoT (https://acetechsi.vercel.app/about).
+     * JomLocal: AI-powered trip planner and tourist guide Android & iOS mobile app for Perlis, Malaysia (https://www.jomlocal.com/).
+     * Ace Star Tech SI: Systems integration for enterprise ERP, AI automation, and IoT (https://acetechsi.vercel.app/about).
    - Professional Experience:
      * "Software Developer Intern" (Ace Star Tech System Integration, Mar 2026 - Sep 2026 / Ongoing): Involved in Full Stack development, IoT projects, and system integration workflows in Johor Bahru. Bridging hardware and software using UniSIRAJ academic concepts.
      * "AI Vibe Coding & Automation Engineer" (Freelance/Self-Employed, 2024 - Present): Built BaldGuard AI & Smart Email Assistant.
