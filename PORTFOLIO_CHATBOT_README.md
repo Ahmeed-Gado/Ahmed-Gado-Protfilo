@@ -5,7 +5,7 @@ This directory contains the code for a modern, dark-themed floating AI Chatbot d
 ## 🚀 Features
 
 *   **Interactive Assistant**: Greets visitors and answers questions intelligently.
-*   **Vibe Coding Engineer Profile**: Pre-configured with a system prompt that emphasizes rapid prototyping, AI tools, and beautiful UX.
+*   **Professional Engineering Profile**: Pre-configured with a system prompt that highlights AI Engineering, IoT development, and full-stack software development.
 *   **Next.js App Router API**: Secure backend `/api/chat/route.ts` that safely communicates with OpenAI without exposing your API keys.
 *   **Auto-Scroll & Typing Indicator**: Feels like a real chat experience.
 *   **Clickable Links**: The assistant can drop links to GitHub or live deployed apps, and they are automatically rendered as clickable hyperlinks.
@@ -47,6 +47,6 @@ You are Ahmeed's AI Assistant...
 `;
 ```
 
-## 🎨 Customizing the Vibe
+## 🎨 Customizing the Design
 
 The Chatbot is built with **Tailwind CSS**. To change colors, find the `bg-indigo-600` classes in `Chatbot.tsx` and switch them to match your portfolio's accent color (e.g., `emerald-500`, `rose-600`).

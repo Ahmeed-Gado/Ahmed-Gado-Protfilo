@@ -91,7 +91,7 @@ export default function Chatbot() {
                         </div>
                         <div>
                             <h3 className="font-semibold text-white leading-tight">Ahmeed's Assistant</h3>
-                            <p className="text-xs text-gray-400">AI Vibe Coding Expert</p>
+                            <p className="text-xs text-gray-400">AI Engineering Specialist</p>
                         </div>
                     </div>
                     <button
@@ -170,7 +170,7 @@ export default function Chatbot() {
                         </button>
                     </form>
                     <div className="text-center mt-2">
-                        <span className="text-[10px] text-gray-500">Powered by OpenAI & Vibe Coding</span>
+                        <span className="text-[10px] text-gray-500">Powered by OpenAI & Next.js</span>
                     </div>
                 </div>
             </div>

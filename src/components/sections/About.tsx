@@ -4,7 +4,7 @@ import Image from "next/image";
 const skills = [
     { icon: <Image src="/icon_iot.png" alt="IoT & Embedded" width={56} height={56} className="rounded-xl" />, title: "IoT & Embedded", desc: "ESP32, Arduino, Sensors, WiFi Connectivity" },
     { icon: <Image src="/icon_fullstack.png" alt="Full-Stack Dev" width={56} height={56} className="rounded-xl" />, title: "Full-Stack Dev", desc: "Next.js, FastAPI, Python, JavaScript/TypeScript" },
-    { icon: <Image src="/icon_prototyping.png" alt="Rapid Prototyping" width={56} height={56} className="rounded-xl" />, title: "Rapid Prototyping", desc: "MVP focus, AI-assisted coding, fast iteration" },
+    { icon: <Image src="/icon_prototyping.png" alt="Product Engineering" width={56} height={56} className="rounded-xl" />, title: "Product Engineering", desc: "AI-assisted design, rapid prototyping, production readiness" },
     { icon: <Image src="/icon_ai_cloud.png" alt="AI & Cloud" width={56} height={56} className="rounded-xl" />, title: "AI & Cloud", desc: "LLM Workflows, Computer Vision, Firebase" },
 ];
 
@@ -37,10 +37,10 @@ export function About() {
 
                     <div className="space-y-4 text-lg text-gray-400 leading-relaxed font-light">
                         <p>
-                            I&apos;m a final year IoT student with a passion for building intelligent systems that bridge hardware and software. I specialize in rapid MVP development — from embedded microcontrollers to full-stack AI-powered web applications.
+                            I&apos;m a final-year IoT and Systems Engineering student with a passion for designing and building intelligent systems that bridge hardware and software. I specialize in full-stack AI-powered applications, cloud backends, and embedded microcontrollers.
                         </p>
                         <p>
-                            My core approach is simple: <strong className="text-gray-200 font-medium">leverage AI to move fast, apply engineering principles to make it solid, and ship products that actually work.</strong>
+                            My core engineering approach is focused: <strong className="text-gray-200 font-medium">leveraging advanced AI-assisted development tools to write robust software rapidly, while applying rigorous architectural principles to ensure production-grade reliability.</strong>
                         </p>
                     </div>
 

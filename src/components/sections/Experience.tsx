@@ -13,13 +13,13 @@ const experiences = [
         tech: ["Full Stack Development", "IoT Implementation", "System Integration", "Hardware-Software Bridging"],
     },
     {
-        role: "AI Vibe Coding & Automation Engineer",
+        role: "Freelance AI & Automation Engineer",
         company: "Self-Employed / Freelance",
         type: "Freelance",
         duration: "2024 - Present",
         logo: "/icon_ai_bot.png",
         description:
-            "Design and deploy custom AI automation systems and LLM workflows, moving rapid MVPs from concept to production. Developed BaldGuard AI (Next.js/FastAPI computer vision web app) and the Smart Email Assistant (an automated intelligence pipeline using LLM agents, n8n, and Telegram Bot API).",
+            "Design and deploy custom AI automation systems, advanced backend integrations, and LLM workflows. Developed BaldGuard AI (Next.js/FastAPI computer vision web app) and the Smart Email Assistant (an automated intelligence pipeline using LLM agents, n8n, and Telegram Bot API) to deliver production-ready software solutions.",
         tech: ["Next.js", "FastAPI", "Computer Vision", "LLM Workflows", "n8n", "Telegram API", "Firebase"],
     },
     {

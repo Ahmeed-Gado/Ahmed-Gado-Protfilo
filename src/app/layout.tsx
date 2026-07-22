@@ -7,7 +7,7 @@ import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "Ahmeed's Portfolio",
-  description: "AI Vibe Coding Engineer Portfolio",
+  description: "Professional Portfolio of Ahmeed Gado — AI Engineer, IoT Developer & Full-Stack Software Engineer",
 };
 
 export default function RootLayout({

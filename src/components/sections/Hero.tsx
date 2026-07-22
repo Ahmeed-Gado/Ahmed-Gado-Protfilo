@@ -24,7 +24,7 @@ export function Hero() {
                         className="flex items-center gap-2"
                     >
                         <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
-                        <span className="text-blue-400 text-sm font-medium tracking-widest uppercase">IoT &amp; AI Developer</span>
+                        <span className="text-blue-400 text-sm font-medium tracking-widest uppercase">AI • IoT • Full-Stack Engineer</span>
                     </motion.div>
 
                     <motion.div
@@ -37,10 +37,10 @@ export function Hero() {
                             <span className="text-blue-400">Gado</span>
                         </h1>
                         <p className="text-xl font-semibold text-gray-200 mt-3">
-                            IoT &amp; AI Developer &amp; Full-Stack Vibe Coding Engineer
+                            AI Engineer • IoT Developer • Full-Stack Software Engineer
                         </p>
                         <p className="text-blue-400 italic text-base mt-1">
-                            Exploring intelligent systems &amp; IoT solutions.
+                            Building intelligent software, connected systems, and AI-powered products.
                         </p>
                     </motion.div>
 
@@ -50,9 +50,7 @@ export function Hero() {
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="text-gray-400 leading-relaxed max-w-lg"
                     >
-                        I build <strong className="text-white font-medium">intelligent products fast</strong> using AI-assisted development, full-stack engineering, and cloud technologies. Specializing in{" "}
-                        <strong className="text-white font-medium">IoT systems, AI integrations, and rapid MVPs</strong>{" "}
-                        to deliver production-ready solutions.
+                        I design and build scalable software that combines AI, cloud technologies, and IoT to solve real-world problems. From rapid MVPs to production-ready applications, I focus on clean architecture, automation, and delivering products that create measurable impact.
                     </motion.p>
 
                     {/* Location Badge */}
@@ -136,7 +134,7 @@ export function Hero() {
                             <div className="relative w-72 h-80 md:w-80 md:h-96 rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-blue-500/10">
                                 <Image
                                     src="/personal pic.png"
-                                    alt="Ahmeed Gado — AI Vibe Coding Engineer"
+                                    alt="Ahmeed Gado — AI, IoT & Full-Stack Engineer"
                                     fill
                                     className="object-cover"
                                     priority

@@ -6,7 +6,7 @@ export function Footer() {
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
                 <div className="text-center md:text-left">
                     <p className="text-lg font-semibold text-white tracking-tight">Ahmeed Gado</p>
-                    <p className="text-sm text-gray-500 mt-1">AI Vibe Coding Engineer · IoT Engineer · Builder</p>
+                    <p className="text-sm text-gray-500 mt-1">AI Engineer · IoT Developer · Full-Stack Software Engineer</p>
                 </div>
 
                 <div className="flex gap-6">
@@ -22,7 +22,7 @@ export function Footer() {
                 </div>
             </div>
             <div className="max-w-6xl mx-auto mt-8 text-center md:text-left text-xs text-gray-600">
-                &copy; {currentYear} Ahmeed Gado. Built with Next.js, Tailwind CSS & Artificial Intelligence.
+                &copy; {currentYear} Ahmeed Gado. Built with Next.js, Tailwind CSS & AI Engineering.
             </div>
         </footer>
     );

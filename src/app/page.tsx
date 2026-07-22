@@ -1,6 +1,6 @@
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
-import { Philosophy } from "@/components/sections/Philosophy";
+import { Workflow } from "@/components/sections/Workflow";
 import { Experience } from "@/components/sections/Experience";
 import { Projects } from "@/components/sections/Projects";
 import { TechStack } from "@/components/sections/TechStack";
@@ -12,7 +12,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center overflow-hidden">
       <Hero />
       <About />
-      <Philosophy />
+      <Workflow />
       <Experience />
       <Projects />
       <TechStack />
